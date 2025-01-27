@@ -1,5 +1,5 @@
 ---
-title: Astro
+title: Astro-updated
 description: Build your website with the Astro Static Site Generator (SSG) and host it on Clever Cloud. No dedicated runner needed.
 tags:
 - guides
